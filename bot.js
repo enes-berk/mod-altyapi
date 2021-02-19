@@ -303,7 +303,7 @@ var kanal2 = oldMember.guild.channels.find('name', kanal)
 client.on("guildCreate", guild => {
 const tesekkurler = new Discord.RichEmbed()
 .setColor("BLACK")
-.setDescription(`Beni sunucuya eklediğin için teşekkürler herhangi bir sorunda destek sunucuma gelebilirsin.(Merak etme bu mesaj sadece sana gönderildi.) [Destek Sunucum](https://discord.gg/7u65Rra)`)
+.setDescription(`Beni sunucuya eklediğin için teşekkürler herhangi bir sorunda destek sunucuma gelebilirsin.(Merak etme bu mesaj sadece sana gönderildi.) [Destek Sunucum](https://discord.gg/B365Sud9GB)`)
 guild.owner.send(tesekkurler)
 
 
@@ -317,7 +317,7 @@ client.on('guildMemberAdd', async (member, guild, message) => {
     var embed = new Discord.RichEmbed()
         .setDescription(`<@!${member.user.id}> sunucumuza katıldı. Hoşgeldin!`)
         .setColor('RANDOM') 
-    member.guild.channels.get(hgbbkanal).send(embed)
+    member.guild.channels.get(789373393760681995).send(embed)
 })
 
 client.on('guildMemberRemove', async (member, guild, message) => {
@@ -351,11 +351,11 @@ client.on('guildDelete', guild => {
     .setColor("RED")
     .setAuthor(`Atıldım`)
     .setThumbnail(guild.iconURL)
-    .addField("Sunucu Adı", guild.name)
-    .addField("Kurucu", guild.owner)
-    .addField("Sunucu ID", guild.id, true)
+    .addField("Sunucu Adı", guild.name) Macchiato
+    .addField("Kurucu", guild.owner)648204976778379274
+    .addField("Sunucu ID", guild.id, true)789190805247492186
     .addField("Toplam Kullanıcı", guild.memberCount, true)
     .addField("Toplam Kanal", guild.channels.size, true)
   channel.send(embed);
 });
-client.login(ayarlar.token);
+client.login(ayarlar.token);ODExOTQ4NzE5ODQyMjYzMDgw.YC5oLA.ysDekYYjvypXb5ubELe5aM-xr5I
